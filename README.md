@@ -4,7 +4,7 @@
 
 <h4>使用方法：</h4>
 
-
+<code>
 &lt;link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"&gt;
 &lt;link rel="stylesheet" href="bootstrap/css/font-awesome.min.css"&gt;
 &lt;link rel="stylesheet" type="text/css" href="editor.css"&gt;
@@ -18,7 +18,7 @@
 &lt;div ng-app="webapp" ng-controller="TestCtrl"&gt;
 	&lt;ng-editor content="test"&gt;&lt;/ng-editor&gt;
 &lt;/div>
-		
+</code>	
 
 
 		
