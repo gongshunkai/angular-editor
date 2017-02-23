@@ -4,7 +4,7 @@
 
 <h4>使用方法：</h4>
 
-&lt;html&gt;	
+
 &lt;link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"&gt;
 &lt;link rel="stylesheet" href="bootstrap/css/font-awesome.min.css"&gt;
 &lt;link rel="stylesheet" type="text/css" href="editor.css"&gt;
@@ -19,10 +19,10 @@
 	&lt;ng-editor content="test"&gt;&lt;/ng-editor&gt;
 &lt;/div>
 		
-&lt;/html&gt;
+
 
 		
-&lt;script&gt;
+
 
 	angular.module('webapp', [
 		'ngEditor'
@@ -35,5 +35,5 @@
 		$scope.test = '&lt;p&gt;test content&lt;/p&gt;';
 	}]);
 
-&lt;/script&gt;
+
 	
