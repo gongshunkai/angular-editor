@@ -3,7 +3,8 @@
 <strong>演示地址：</strong><a href="http://gongshunkai.github.io/demo/angular-editor/test-angular.html">http://gongshunkai.github.io/demo/angular-editor/test-angular.html</a>
 
 <h4>使用方法：</h4>
-		<pre>
+
+&lt;html&gt;	
 &lt;link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"&gt;
 &lt;link rel="stylesheet" href="bootstrap/css/font-awesome.min.css"&gt;
 &lt;link rel="stylesheet" type="text/css" href="editor.css"&gt;
@@ -11,15 +12,16 @@
 &lt;script src="editor.js"&gt;&lt;/script&gt;
 &lt;script src="libs/angular.js"&gt;&lt;/script&gt;
 &lt;script src="libs/angular-editor.js"&gt;&lt;/script&gt;
-		</pre>
+		
 
-		<pre>
+		
 &lt;div ng-app="webapp" ng-controller="TestCtrl"&gt;
 	&lt;ng-editor content="test"&gt;&lt;/ng-editor&gt;
 &lt;/div>
-		</pre>
+		
+&lt;/html&gt;
 
-		<pre>
+		
 &lt;script&gt;
 
 	angular.module('webapp', [
@@ -34,4 +36,4 @@
 	}]);
 
 &lt;/script&gt;
-		</pre>
+	
